@@ -1,0 +1,77 @@
+.App {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: right;
+    padding: 10px 0;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  .service-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .icon {
+    text-align: center;
+  }
+  
+  .promo-banner {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .promo-banner button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .top-specialists, .health-articles {
+    margin: 20px 0;
+  }
+  
+  .see-all {
+    float: right;
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  .specialists-list {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .specialist-card {
+    margin-right: 15px;
+    text-align: center;
+  }
+  
+  .specialist-image {
+    width: 80px;
+    height: 80px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 auto;
+  }

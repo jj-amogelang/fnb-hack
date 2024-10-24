@@ -1,0 +1,66 @@
+/* src/components/Chatbot.css */
+.chatbot-container {
+    width: 400px; /* Set a fixed width */
+    max-width: 90%; /* Responsive */
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Distance from bottom */
+    right: 20px; /* Distance from right */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.chat-window {
+    padding: 10px;
+    height: 300px; /* Fixed height */
+    overflow-y: auto; /* Scrollable */
+    border-bottom: 1px solid #ccc; /* Divider */
+}
+
+.message {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px; /* Rounded message bubbles */
+}
+
+.message.user {
+    background-color: #007bff; /* User message color */
+    color: white;
+    align-self: flex-end; /* Align user messages to the right */
+}
+
+.message.ai {
+    background-color: #f1f1f1; /* AI message color */
+    color: black;
+    align-self: flex-start; /* Align AI messages to the left */
+}
+
+.input-container {
+    display: flex;
+    padding: 10px;
+}
+
+input {
+    flex: 1; /* Take available space */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

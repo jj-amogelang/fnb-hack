@@ -1,21 +1,22 @@
 import React from 'react';
+import { FaUserMd, FaPills, FaHospital, FaAmbulance } from 'react-icons/fa';
 
 const ServiceIcons = () => (
   <div className="service-icons">
     <div className="icon">
-      <span role="img" aria-label="Doctor">👨‍⚕️</span>
-      <p>Doctor</p>
+      <FaUserMd />
+      <p>Dr. AI</p>
     </div>
     <div className="icon">
-      <span role="img" aria-label="Pharmacy">💊</span>
+      <FaPills />
       <p>Pharmacy</p>
     </div>
     <div className="icon">
-      <span role="img" aria-label="Clinics">🏥</span>
+      <FaHospital />
       <p>Clinics</p>
     </div>
     <div className="icon">
-      <span role="img" aria-label="Ambulance">🚑</span>
+      <FaAmbulance />
       <p>Ambulance</p>
     </div>
   </div>
